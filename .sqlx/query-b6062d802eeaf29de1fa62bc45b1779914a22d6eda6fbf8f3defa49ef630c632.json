@@ -1,0 +1,14 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "UPDATE users SET roles = ARRAY['admin'] WHERE id = $1",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Int4"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "b6062d802eeaf29de1fa62bc45b1779914a22d6eda6fbf8f3defa49ef630c632"
+}
