@@ -1,1 +1,1 @@
-Simple users api using actix
+Simple users api using actix and postgres
